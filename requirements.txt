@@ -1,0 +1,3 @@
+# Python 3.12. The experiment itself uses only the standard library;
+# pytest is needed to run the tests. Requires a local Ollama server with mistral:latest.
+pytest==9.1.1

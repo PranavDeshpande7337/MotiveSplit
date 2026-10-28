@@ -1,0 +1,54 @@
+# ---- Experiment outputs (raw logs, generated reports, label sheets) ----
+/results/
+*.jsonl
+*_report.txt
+*.csv
+
+# ---- Supplementary scripts kept out of the repository ----
+/check_env.py
+/calib_report.py
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+venv/
+.venv/
+env/
+ENV/
+
+# ---- Secrets and local config ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- Logs, scratch and backups ----
+*.log
+*.tmp
+*.bak
+*~
+*.swp
+
+# ---- Editor and OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+# Archives
+*.zip
+*.7z
+*.rar

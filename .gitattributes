@@ -1,0 +1,5 @@
+# Normalise line endings for code, but keep the frozen hypotheses file byte-for-byte
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+HYPOTHESES.md -text
